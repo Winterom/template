@@ -5,32 +5,139 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c86de592-9c8d-4a85-9591-cafbc9fd52da" name="Changes" comment="Initial">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/user_service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/user_service.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/user_service.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/layout/slice/SideBarToggleSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/modules/users/SingleUser/SingleUser.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/store/hooks.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/store/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/ui/Hamburger/Hamburger.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/ui/Hamburger/Hambyrger.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/ui/Hamburger/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/admin.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/admin/admin.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/admin/admin.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/admin/admin.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/admin/user-list/user-by-id/user-by-id.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/admin/user-list/user-by-id/user-by-id.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/admin/user-list/user-by-id/user-by-id.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/admin/user-list/user-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/admin/user-list/user-list.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/admin/user-list/user-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/dashboard-layout.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/dashboard-layout.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/dashboard-layout.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/footer/footer.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/left-sidebar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/left-sidebar.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/left-sidebar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/nav-links/link/link.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/nav-links/link/link.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/nav-links/link/link.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/nav-links/nav-links.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/nav-links/nav-links.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/nav-links/nav-links.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/top-menu/top-menu.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/top-menu/top-menu.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/top-menu/top-menu.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/desktop/desktop.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/desktop/desktop/desktop.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/desktop/desktop/desktop.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/desktop/desktop/desktop.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/login/login.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/login/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/login/login/login.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/login/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/shared/service/eventBus/EventData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/shared/service/eventBus/event-bus.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/shared/service/user/EAuthority.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/hamburger/hamburger.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/hamburger/hamburger.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/hamburger/hamburger.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/uikit.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/assets/fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/assets/fonts/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/assets/fonts/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/assets/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/assets/images/dashboard/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/assets/images/femail_picture.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/assets/images/male_picture.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/assets/minireset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/7.4/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/7.4/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/7.4/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/8.0.1/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/8.0.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/8.0.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/8.0.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/8.0.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/8.0.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/8.0.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/8.0.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/8.0.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user_service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layout/LeftSidebar/LeftSidebar.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layout/LeftSidebar/LeftSidebar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layout/MainLayout.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layout/MainLayout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layout/TopMenu/TopMenu.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layout/TopMenu/TopMenu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layout/slice/SideBarToggleSlice.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/modules/users/SingleUser/SingleUser.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/modules/users/UserList/UserList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/hooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/store.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/styles/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/ui/Hamburger/Hamburger.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/ui/Hamburger/Hambyrger.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/ui/Hamburger/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +154,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="user_service" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -87,7 +199,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/winte/IdeaProjects/template/frontend/src/ui",
+    "last_opened_file_path": "/Volumes/Работа/Репозитории/template/ngx_front/src/assets/images/dashboard",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -99,16 +211,23 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "ts.external.directory.path": "C:\\Users\\winte\\IdeaProjects\\template\\frontend\\node_modules\\typescript\\lib"
+    "ts.external.directory.path": "/Volumes/Работа/Репозитории/template/ngx_front/node_modules/typescript/lib"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ngx_front/src/assets/images/dashboard" />
+      <recent name="$PROJECT_DIR$/ngx_front/src/assets/fonts" />
+      <recent name="$PROJECT_DIR$/ngx_front/src/assets/images" />
+      <recent name="$PROJECT_DIR$/frontend/src/ui" />
       <recent name="C:\Users\winte\IdeaProjects\template\frontend\src\ui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ngx_front/src/app/modules/admin" />
+      <recent name="$PROJECT_DIR$/ngx_front/src/app/shared/service/eventBus" />
+      <recent name="$PROJECT_DIR$/ngx_front/src/app/uikit" />
+      <recent name="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard" />
       <recent name="$PROJECT_DIR$/frontend/src/layouts" />
-      <recent name="$PROJECT_DIR$/frontend/src/shared" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -116,7 +235,7 @@
       <command value="gradle assemble" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.user_service [assemble]">
+  <component name="RunManager" selected="npm.Angular CLI Server (ngx_front)">
     <configuration name="user_service [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -138,7 +257,20 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Angular Application (ngx_front)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server (ngx_front)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/ngx_front/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -156,6 +288,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677005849619</updated>
       <workItem from="1677005850691" duration="10544000" />
+      <workItem from="1677235426961" duration="23166000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1677005879987</created>
