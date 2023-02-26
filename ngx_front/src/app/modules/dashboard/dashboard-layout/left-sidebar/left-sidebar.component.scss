@@ -1,15 +1,16 @@
 :host{
-  width: 20em;
+  width: 22em;
   height: 100vh;
   border-right: 1px ridge black ;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
-  background-color: #F5F5F5;
+  background-color: white;
   text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
 }
 .avatar {
   margin-top: 3em;
-  width: 10em;
-  height: 10em;
+  width: 7em;
+  height: 7em;
   border-radius: 50%;
   background-color: #f5f7fa;
 }
@@ -22,4 +23,9 @@
 .designation {
   margin-top: 0.5em;
   font-size: 0.7rem;
+}
+.menu-items{
+  margin-top: 5em;
+  width: 100%;
+  padding: 0 0.5em;
 }

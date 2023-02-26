@@ -6,16 +6,15 @@ import { FooterComponent } from './dashboard-layout/footer/footer.component';
 import {DashboardLayoutComponent} from "./dashboard-layout/dashboard-layout.component";
 import {RouterModule, RouterOutlet, Routes} from "@angular/router";
 import {UikitModule} from "../../uikit/uikit.module";
-import { NavLinksComponent } from './dashboard-layout/left-sidebar/nav-links/nav-links.component';
-import { LinkComponent } from './dashboard-layout/left-sidebar/nav-links/link/link.component';
-import {AdminComponent} from "../admin/admin/admin.component";
 import {AdminModule} from "../admin/admin.module";
 import {DesktopComponent} from "../desktop/desktop/desktop.component";
 import {DesktopModule} from "../desktop/desktop.module";
+import { SideBarMenuComponent } from './dashboard-layout/left-sidebar/side-bar-menu/side-bar-menu.component';
+
 
 
 const routes: Routes =[
-  {path:'admin',component:AdminComponent},
+  {path:'admin',loadChildren:()=>import('../admin/admin.module').then(m=>m.AdminModule)},
   {path:'desktop',component:DesktopComponent},
   {path:'**',redirectTo:'desktop'}
 ];
@@ -26,8 +25,7 @@ const routes: Routes =[
     TopMenuComponent,
     FooterComponent,
     DashboardLayoutComponent,
-    NavLinksComponent,
-    LinkComponent
+    SideBarMenuComponent,
   ],
   exports: [
     LeftSidebarComponent
