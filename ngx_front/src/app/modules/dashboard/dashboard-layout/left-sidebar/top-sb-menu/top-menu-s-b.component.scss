@@ -5,6 +5,10 @@
   width: 100%;
   text-align: left;
 }
+hr{
+  width: 15em;
+  margin-bottom: 1.5em;
+}
 .active{
   background: #BDD9FE;
 }
@@ -25,9 +29,7 @@
 .item p{
   margin-left: 1em;
 }
-.return{
-  border: 1px solid black;
-}
+
 .return p{
   font-style: italic;
 }

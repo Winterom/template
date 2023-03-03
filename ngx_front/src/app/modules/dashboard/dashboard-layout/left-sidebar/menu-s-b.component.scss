@@ -14,18 +14,16 @@
   border-radius: 50%;
   background-color: #f5f7fa;
 }
+.menu{
+  height: calc(100% - 15em);
+  display: flex;
+  flex-flow: wrap;
+  align-content: space-between;
+}
 
 .name {
   margin-top: 1em;
   font-weight: normal;
 }
 
-.designation {
-  margin-top: 0.5em;
-  font-size: 0.7rem;
-}
-.menu-items{
-  margin-top: 5em;
-  width: 100%;
-  padding: 0 0.5em;
-}
+

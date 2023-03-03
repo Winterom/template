@@ -3,8 +3,8 @@
   display: block;
   height: 1.5em;
   width: 1.5em;
-  top: 20px;
-  left: 20px;
+  top: 1em;
+  left: 1.5em;
   z-index: 5;
   opacity: 0;
   cursor: pointer;
@@ -15,8 +15,8 @@
   height: 1.2em;
   width: 1.4em;
   position: absolute;
-  top: 17px;
-  left: 20px;
+  top: 1em;
+  left: 1.5em;
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@
   height: 3px;
   width: 100%;
   border-radius: 6px;
-  background: #0e2431;
+  background: white;
 }
 
 .hamburger-lines .line1 {
@@ -49,13 +49,16 @@ input[type="checkbox"]:checked ~ .menu-items {
 }
 
 input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  background: #2D3541;
   transform: rotate(45deg);
 }
 
 input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  background: #2D3541;
   transform: scaleY(0);
 }
 
 input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  background: #2D3541;
   transform: rotate(-45deg);
 }
