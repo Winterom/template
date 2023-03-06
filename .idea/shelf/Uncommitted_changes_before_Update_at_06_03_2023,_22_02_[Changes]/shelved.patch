@@ -1,0 +1,201 @@
+Index: ngx_front/src/app/uikit/table/table.component.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.scroll-table-body {\n  height: 300px;\n  overflow-x: auto;\n  margin-top: 0px;\n  margin-bottom: 20px;\n  border-bottom: 1px solid black;\n}\n.scroll-table table {\n  width:100%;\n  table-layout: fixed;\n  border: none;\n}\n\n.scroll-table tbody td {\n  text-align: left;\n  border-left: 1px solid #ddd;\n  border-right: 1px solid #ddd;\n  padding: 10px 15px;\n  font-size: 14px;\n  vertical-align: top;\n}\n.scroll-table tbody tr:nth-child(even){\n  background: #f3f3f3;\n}\n\n::-webkit-scrollbar {\n  width: 6px;\n}\n::-webkit-scrollbar-track {\n  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);\n}\n::-webkit-scrollbar-thumb {\n  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);\n}\n\nth {\n  font-weight: bold;\n  border: none;\n  background: #d8d8d8;\n  border-left: 1px solid #ddd;\n  border-right: 1px solid #ddd;\n  box-sizing: border-box;\n  cursor: pointer;\n  height: 100%;\n  min-width: max-content;\n  padding: 0.5rem 1rem;\n  width: 100%;\n}\nth svg{\n  margin-left: 2em;\n}\n.th_header{\n  display: flex;\n  justify-content: center;\n}\n.th_title{\n  font-size: 1.2em;\n}\n.checkbox {\n  margin-bottom: 0.2em;\n}\n\n/* для элемента input c type=\"checkbox\" */\n.custom-checkbox>input {\n  position: absolute;\n  z-index: -1;\n  opacity: 0;\n}\n\n/* для элемента label, связанного с .custom-checkbox */\n.custom-checkbox>span {\n  display: inline-flex;\n  align-items: center;\n  user-select: none;\n}\n\n/* создание в label псевдоэлемента before со следующими стилями */\n.custom-checkbox>span::before {\n  content: '';\n  display: inline-block;\n  width: 1em;\n  height: 1em;\n  flex-shrink: 0;\n  flex-grow: 0;\n  border: 1px solid #adb5bd;\n  border-radius: 0.25em;\n  margin-right: 0.5em;\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: 50% 50%;\n}\n\n/* стили при наведении курсора на checkbox */\n.custom-checkbox>input:not(:disabled):not(:checked)+span:hover::before {\n  border-color: #b3d7ff;\n}\n\n/* стили для активного чекбокса (при нажатии на него) */\n.custom-checkbox>input:not(:disabled):active+span::before {\n  background-color: #b3d7ff;\n  border-color: #b3d7ff;\n}\n\n/* стили для чекбокса, находящегося в фокусе */\n.custom-checkbox>input:focus+span::before {\n  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);\n}\n\n/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */\n.custom-checkbox>input:focus:not(:checked)+span::before {\n  border-color: #80bdff;\n}\n\n/* стили для чекбокса, находящегося в состоянии checked */\n.custom-checkbox>input:checked+span::before {\n  border-color: #0b76ef;\n  background-color: #0b76ef;\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e\");\n}\n\n/* стили для чекбокса, находящегося в состоянии disabled */\n.custom-checkbox>input:disabled+span::before {\n  background-color: #e9ecef;\n}\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ngx_front/src/app/uikit/table/table.component.scss b/ngx_front/src/app/uikit/table/table.component.scss
+--- a/ngx_front/src/app/uikit/table/table.component.scss	(revision b553bf6bf112e57b071f3640d452f5e1659fb300)
++++ b/ngx_front/src/app/uikit/table/table.component.scss	(date 1678077267802)
+@@ -56,70 +56,5 @@
+ .th_title{
+   font-size: 1.2em;
+ }
+-.checkbox {
+-  margin-bottom: 0.2em;
+-}
+-
+-/* для элемента input c type="checkbox" */
+-.custom-checkbox>input {
+-  position: absolute;
+-  z-index: -1;
+-  opacity: 0;
+-}
+-
+-/* для элемента label, связанного с .custom-checkbox */
+-.custom-checkbox>span {
+-  display: inline-flex;
+-  align-items: center;
+-  user-select: none;
+-}
+-
+-/* создание в label псевдоэлемента before со следующими стилями */
+-.custom-checkbox>span::before {
+-  content: '';
+-  display: inline-block;
+-  width: 1em;
+-  height: 1em;
+-  flex-shrink: 0;
+-  flex-grow: 0;
+-  border: 1px solid #adb5bd;
+-  border-radius: 0.25em;
+-  margin-right: 0.5em;
+-  background-repeat: no-repeat;
+-  background-position: center center;
+-  background-size: 50% 50%;
+-}
+-
+-/* стили при наведении курсора на checkbox */
+-.custom-checkbox>input:not(:disabled):not(:checked)+span:hover::before {
+-  border-color: #b3d7ff;
+-}
+-
+-/* стили для активного чекбокса (при нажатии на него) */
+-.custom-checkbox>input:not(:disabled):active+span::before {
+-  background-color: #b3d7ff;
+-  border-color: #b3d7ff;
+-}
+-
+-/* стили для чекбокса, находящегося в фокусе */
+-.custom-checkbox>input:focus+span::before {
+-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+-}
+-
+-/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+-.custom-checkbox>input:focus:not(:checked)+span::before {
+-  border-color: #80bdff;
+-}
+ 
+-/* стили для чекбокса, находящегося в состоянии checked */
+-.custom-checkbox>input:checked+span::before {
+-  border-color: #0b76ef;
+-  background-color: #0b76ef;
+-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+-}
+-
+-/* стили для чекбокса, находящегося в состоянии disabled */
+-.custom-checkbox>input:disabled+span::before {
+-  background-color: #e9ecef;
+-}
+ 
+Index: ngx_front/src/app/modules/admin/user-list/UsersTableDefinition.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import {SORT_DIRECTION, TableDefinition, VALUE_TYPE} from \"../../../uikit/table/TableDefinition\";\n\nexport class UsersTableDefinition extends TableDefinition{\n  constructor() {\n    super();\n    super.headerDefinition.push(\n      {title: 'id', sort: SORT_DIRECTION.ASC,type:VALUE_TYPE.NUMBER,width:'5em'},\n      {title: 'email', sort: SORT_DIRECTION.DESC,type:VALUE_TYPE.STRING,width:'100%'},\n      {title:'Создан',sort:SORT_DIRECTION.ASC,type:VALUE_TYPE.DATE,width:'8em'},\n      {title:'Изменен',sort:SORT_DIRECTION.ASC,type:VALUE_TYPE.DATE,width:'8em'}\n    )\n    super.isCheckColumn=true;\n  }\n}\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ngx_front/src/app/modules/admin/user-list/UsersTableDefinition.ts b/ngx_front/src/app/modules/admin/user-list/UsersTableDefinition.ts
+--- a/ngx_front/src/app/modules/admin/user-list/UsersTableDefinition.ts	(revision b553bf6bf112e57b071f3640d452f5e1659fb300)
++++ b/ngx_front/src/app/modules/admin/user-list/UsersTableDefinition.ts	(date 1678077090787)
+@@ -3,12 +3,12 @@
+ export class UsersTableDefinition extends TableDefinition{
+   constructor() {
+     super();
+-    super.headerDefinition.push(
++    super.headerDefinition=[
+       {title: 'id', sort: SORT_DIRECTION.ASC,type:VALUE_TYPE.NUMBER,width:'5em'},
+       {title: 'email', sort: SORT_DIRECTION.DESC,type:VALUE_TYPE.STRING,width:'100%'},
+       {title:'Создан',sort:SORT_DIRECTION.ASC,type:VALUE_TYPE.DATE,width:'8em'},
+       {title:'Изменен',sort:SORT_DIRECTION.ASC,type:VALUE_TYPE.DATE,width:'8em'}
+-    )
++    ];
+     super.isCheckColumn=true;
+   }
+ }
+Index: ngx_front/src/app/uikit/table/table.component.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><div class=\"scroll-table\">\n  <table>\n    <thead>\n    <tr>\n      <ng-container *ngFor=\"let column of getHeaderDefinition(); let i = index\">\n        <th *ngIf=\"tableDefinition.isCheckColumn\" style=\"width: 8em\">\n          <div class=\"checkbox\">\n            <label class=\"custom-checkbox\">\n              <input type=\"checkbox\" name=\"color-1\" value=\"indigo\">\n            </label>\n          </div>\n        </th>\n        <th (click)=\"changeSortDirection(i)\" [style.width]=\"column.width\" >\n          <div class=\"th_header\">\n            <div class=\"th_title\">{{column.title}}</div>\n            <div *ngIf=\"column.sort==='asc'&& column.type==='string'\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\"\n                   class=\"bi bi-sort-alpha-down\" viewBox=\"0 0 16 16\">\n                <path fill-rule=\"evenodd\"\n                      d=\"M10.082 5.629 9.664 7H8.598l1.789-5.332h1.234L13.402 7h-1.12l-.419-1.371h-1.781zm1.57-.785L11 2.687h-.047l-.652 2.157h1.351z\"/>\n                <path\n                  d=\"M12.96 14H9.028v-.691l2.579-3.72v-.054H9.098v-.867h3.785v.691l-2.567 3.72v.054h2.645V14zM4.5 2.5a.5.5 0 0 0-1 0v9.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L4.5 12.293V2.5z\"/>\n              </svg>\n            </div>\n            <div *ngIf=\"column.sort==='desc' && column.type==='string'\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\"\n                   class=\"bi bi-sort-alpha-down-alt\" viewBox=\"0 0 16 16\">\n                <path d=\"M12.96 7H9.028v-.691l2.579-3.72v-.054H9.098v-.867h3.785v.691l-2.567 3.72v.054h2.645V7z\"/>\n                <path fill-rule=\"evenodd\"\n                      d=\"M10.082 12.629 9.664 14H8.598l1.789-5.332h1.234L13.402 14h-1.12l-.419-1.371h-1.781zm1.57-.785L11 9.688h-.047l-.652 2.156h1.351z\"/>\n                <path\n                  d=\"M4.5 2.5a.5.5 0 0 0-1 0v9.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L4.5 12.293V2.5z\"/>\n              </svg>\n            </div>\n            <div *ngIf=\"column.sort==='asc'&& column.type==='number'\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-sort-numeric-down\" viewBox=\"0 0 16 16\">\n                <path d=\"M12.438 1.668V7H11.39V2.684h-.051l-1.211.859v-.969l1.262-.906h1.046z\"/>\n                <path fill-rule=\"evenodd\" d=\"M11.36 14.098c-1.137 0-1.708-.657-1.762-1.278h1.004c.058.223.343.45.773.45.824 0 1.164-.829 1.133-1.856h-.059c-.148.39-.57.742-1.261.742-.91 0-1.72-.613-1.72-1.758 0-1.148.848-1.835 1.973-1.835 1.09 0 2.063.636 2.063 2.687 0 1.867-.723 2.848-2.145 2.848zm.062-2.735c.504 0 .933-.336.933-.972 0-.633-.398-1.008-.94-1.008-.52 0-.927.375-.927 1 0 .64.418.98.934.98z\"/>\n                <path d=\"M4.5 2.5a.5.5 0 0 0-1 0v9.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L4.5 12.293V2.5z\"/>\n              </svg>\n            </div>\n            <div *ngIf=\"column.sort==='desc'&& column.type==='number'\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-sort-numeric-down-alt\" viewBox=\"0 0 16 16\">\n                <path fill-rule=\"evenodd\" d=\"M11.36 7.098c-1.137 0-1.708-.657-1.762-1.278h1.004c.058.223.343.45.773.45.824 0 1.164-.829 1.133-1.856h-.059c-.148.39-.57.742-1.261.742-.91 0-1.72-.613-1.72-1.758 0-1.148.848-1.836 1.973-1.836 1.09 0 2.063.637 2.063 2.688 0 1.867-.723 2.848-2.145 2.848zm.062-2.735c.504 0 .933-.336.933-.972 0-.633-.398-1.008-.94-1.008-.52 0-.927.375-.927 1 0 .64.418.98.934.98z\"/>\n                <path d=\"M12.438 8.668V14H11.39V9.684h-.051l-1.211.859v-.969l1.262-.906h1.046zM4.5 2.5a.5.5 0 0 0-1 0v9.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L4.5 12.293V2.5z\"/>\n              </svg>\n            </div>\n            <div *ngIf=\"column.sort==='asc'&& column.type==='date'\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-sort-down-alt\" viewBox=\"0 0 16 16\">\n                <path d=\"M3.5 3.5a.5.5 0 0 0-1 0v8.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L3.5 12.293V3.5zm4 .5a.5.5 0 0 1 0-1h1a.5.5 0 0 1 0 1h-1zm0 3a.5.5 0 0 1 0-1h3a.5.5 0 0 1 0 1h-3zm0 3a.5.5 0 0 1 0-1h5a.5.5 0 0 1 0 1h-5zM7 12.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7a.5.5 0 0 0-.5.5z\"/>\n              </svg>\n            </div>\n            <div *ngIf=\"column.sort==='desc'&& column.type==='date'\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-sort-down\" viewBox=\"0 0 16 16\">\n                <path d=\"M3.5 2.5a.5.5 0 0 0-1 0v8.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L3.5 11.293V2.5zm3.5 1a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zM7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z\"/>\n              </svg>\n            </div>\n          </div>\n        </th>\n      </ng-container>\n    </tr>\n    </thead>\n  </table>\n  <div class=\"scroll-table-body\">\n    <table>\n      <tbody>\n      <tr>\n        <td>Азу</td>\n        <td>11,9</td>\n        <td>14,2</td>\n        <td>10,2</td>\n        <td>214</td>\n      </tr>\n      </tbody>\n    </table>\n  </div>\n</div>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ngx_front/src/app/uikit/table/table.component.html b/ngx_front/src/app/uikit/table/table.component.html
+--- a/ngx_front/src/app/uikit/table/table.component.html	(revision b553bf6bf112e57b071f3640d452f5e1659fb300)
++++ b/ngx_front/src/app/uikit/table/table.component.html	(date 1678077297741)
+@@ -2,14 +2,10 @@
+   <table>
+     <thead>
+     <tr>
+-      <ng-container *ngFor="let column of getHeaderDefinition(); let i = index">
+-        <th *ngIf="tableDefinition.isCheckColumn" style="width: 8em">
+-          <div class="checkbox">
+-            <label class="custom-checkbox">
+-              <input type="checkbox" name="color-1" value="indigo">
+-            </label>
+-          </div>
+-        </th>
++      <th *ngIf="tableDefinition.isCheckColumn" style="width: 8em">
++        <input type="checkbox">
++      </th>
++      <ng-container *ngFor="let column of getHeaderDefinition(); let i = index">
+         <th (click)="changeSortDirection(i)" [style.width]="column.width" >
+           <div class="th_header">
+             <div class="th_title">{{column.title}}</div>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"c86de592-9c8d-4a85-9591-cafbc9fd52da\" name=\"Changes\" comment=\"feat add ui table\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.html\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$/user_service\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"ExternalProjectsManager\">\n    <system id=\"GRADLE\">\n      <state>\n        <projects_view>\n          <tree_state>\n            <expand>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"user_service\" type=\"f1a62948:ProjectNode\" />\n              </path>\n            </expand>\n            <select />\n          </tree_state>\n        </projects_view>\n      </state>\n    </system>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"TypeScript JSX File\" />\n        <option value=\"CSS File\" />\n        <option value=\"TypeScript File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2M3ouZzh7yQcExR3anhbgTseFaf\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/Volumes/Работа/Репозитории/template/ngx_front/src/assets/images/dashboard&quot;,\n    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,\n    &quot;ts.external.directory.path&quot;: &quot;/Volumes/Работа/Репозитории/template/ngx_front/node_modules/typescript/lib&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/ngx_front/src/assets/images/dashboard\" />\n      <recent name=\"$PROJECT_DIR$/ngx_front/src/assets/fonts\" />\n      <recent name=\"$PROJECT_DIR$/ngx_front/src/assets/images\" />\n      <recent name=\"$PROJECT_DIR$/frontend/src/ui\" />\n      <recent name=\"C:\\Users\\winte\\IdeaProjects\\template\\frontend\\src\\ui\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/ngx_front/src/app/modules/profile\" />\n      <recent name=\"$PROJECT_DIR$/ngx_front/src/app/modules/admin\" />\n      <recent name=\"$PROJECT_DIR$/ngx_front/src/app/shared/service/eventBus\" />\n      <recent name=\"$PROJECT_DIR$/ngx_front/src/app/uikit\" />\n      <recent name=\"$PROJECT_DIR$/ngx_front/src/app/modules/dashboard\" />\n    </key>\n  </component>\n  <component name=\"RunAnythingCache\">\n    <option name=\"myCommands\">\n      <command value=\"gradle assemble\" />\n    </option>\n  </component>\n  <component name=\"RunManager\" selected=\"npm.Angular CLI Server (ngx_front)\">\n    <configuration name=\"user_service [assemble]\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$/user_service\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" value=\"\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\"assemble\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Angular Application (ngx_front)\" type=\"JavascriptDebugType\" uri=\"http://localhost:4200\">\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Debug Application\" type=\"JavascriptDebugType\" uri=\"http://localhost:3000\">\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Angular CLI Server (ngx_front)\" type=\"js.build_tools.npm\">\n      <package-json value=\"$PROJECT_DIR$/ngx_front/package.json\" />\n      <command value=\"run\" />\n      <scripts>\n        <script value=\"start\" />\n      </scripts>\n      <node-interpreter value=\"project\" />\n      <envs />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Gradle.user_service [assemble]\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"c86de592-9c8d-4a85-9591-cafbc9fd52da\" name=\"Changes\" comment=\"\" />\n      <created>1677005849619</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1677005849619</updated>\n      <workItem from=\"1677005850691\" duration=\"10544000\" />\n      <workItem from=\"1677235426961\" duration=\"87795000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Initial\">\n      <created>1677005879987</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1677005879987</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"feat add routing\">\n      <created>1677359280177</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1677359280177</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"feat add sidebar menu\">\n      <created>1677446896836</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1677446896836</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"feat top menu\">\n      <created>1677878065777</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1677878065777</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"feat add ui table\">\n      <created>1678075632081</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1678075632081</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"6\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Initial\" />\n    <MESSAGE value=\"feat add routing\" />\n    <MESSAGE value=\"feat add sidebar menu\" />\n    <MESSAGE value=\"feat top menu\" />\n    <MESSAGE value=\"feat add ui table\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"feat add ui table\" />\n  </component>\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\n    <expand />\n    <select />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision b553bf6bf112e57b071f3640d452f5e1659fb300)
++++ b/.idea/workspace.xml	(date 1678129375826)
+@@ -4,9 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="c86de592-9c8d-4a85-9591-cafbc9fd52da" name="Changes" comment="feat add ui table">
++    <list default="true" id="c86de592-9c8d-4a85-9591-cafbc9fd52da" name="Changes" comment="fix style ui table">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/user-list/UsersTableDefinition.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/user-list/UsersTableDefinition.ts" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.scss" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -51,6 +53,7 @@
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -157,7 +160,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1677005849619</updated>
+       <workItem from="1677005850691" duration="10544000" />
+-      <workItem from="1677235426961" duration="87795000" />
++      <workItem from="1677235426961" duration="88848000" />
+     </task>
+     <task id="LOCAL-00001" summary="Initial">
+       <created>1677005879987</created>
+@@ -194,7 +197,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1678075632081</updated>
+     </task>
+-    <option name="localTasksCounter" value="6" />
++    <task id="LOCAL-00006" summary="fix style ui table">
++      <created>1678076924457</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1678076924457</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -217,7 +227,8 @@
+     <MESSAGE value="feat add sidebar menu" />
+     <MESSAGE value="feat top menu" />
+     <MESSAGE value="feat add ui table" />
+-    <option name="LAST_COMMIT_MESSAGE" value="feat add ui table" />
++    <MESSAGE value="fix style ui table" />
++    <option name="LAST_COMMIT_MESSAGE" value="fix style ui table" />
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />
