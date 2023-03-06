@@ -5,6 +5,7 @@ import { UserByIdComponent } from './user-list/user-by-id/user-by-id.component';
 import { GlobalSettingsComponent } from './global-settings/global-settings.component';
 import { AuthorityComponent } from './authrority/authority.component';
 import {RouterModule, Routes} from "@angular/router";
+import {UikitModule} from "../../uikit/uikit.module";
 
 const routes:Routes=[
   {path:'',component:GlobalSettingsComponent},
@@ -21,9 +22,10 @@ const routes:Routes=[
     GlobalSettingsComponent,
     AuthorityComponent
   ],
-  imports: [
-    CommonModule,
-    RouterModule.forChild(routes)
-  ]
+    imports: [
+        CommonModule,
+        RouterModule.forChild(routes),
+        UikitModule
+    ]
 })
 export class AdminModule { }

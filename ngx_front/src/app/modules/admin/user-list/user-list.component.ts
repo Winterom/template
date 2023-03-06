@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {UsersTableDefinition} from "./UsersTableDefinition";
 
 @Component({
   selector: 'app-user-list',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-list.component.scss']
 })
 export class UserListComponent implements OnInit {
-
+  table:UsersTableDefinition = new UsersTableDefinition();
   constructor() { }
 
   ngOnInit(): void {

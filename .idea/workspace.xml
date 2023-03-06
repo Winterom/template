@@ -4,42 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c86de592-9c8d-4a85-9591-cafbc9fd52da" name="Changes" comment="feat add sidebar menu">
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/bottom-sb-menu/bottom-menu-s-b.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/bottom-sb-menu/bottom-menu-s-b.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/menu-s-b.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/top-sb-menu/top-menu-s-b.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/top-menu/chat-notification/chat-notification.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/top-menu/chat-notification/chat-notification.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/top-menu/chat-notification/chat-notification.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/top-menu/notification/notification.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/top-menu/notification/notification.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/top-menu/notification/notification.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/profile/profile.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/profile/profile.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/profile/profile.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/profile/profile.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.ts" afterDir="false" />
+    <list default="true" id="c86de592-9c8d-4a85-9591-cafbc9fd52da" name="Changes" comment="feat top menu">
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/user-list/UsersTableDefinition.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/TableDefinition.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/admin.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/user-list/user-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/user-list/user-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/user-list/user-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/user-list/user-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/dashboard-layout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/dashboard-layout.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/dashboard-layout.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/dashboard-layout.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/footer/footer.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/footer/footer.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/bottom-sb-menu/bottom-menu-s-b.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/footer/footer.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/left-sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/menu-s-b.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/left-sidebar.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/menu-s-b.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/left-sidebar.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/side-bar-menu/side-bar-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/top-sb-menu/top-menu-s-b.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/side-bar-menu/side-bar-menu.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/top-sb-menu/top-menu-s-b.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/left-sidebar/side-bar-menu/side-bar-menu.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/top-menu/top-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/top-menu/top-menu.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/top-menu/top-menu.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/top-menu/top-menu.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/top-menu/top-menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/top-menu/top-menu.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/uikit/hamburger/hamburger.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/hamburger/hamburger.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/uikit/uikit.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/uikit.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677005849619</updated>
       <workItem from="1677005850691" duration="10544000" />
-      <workItem from="1677235426961" duration="68428000" />
+      <workItem from="1677235426961" duration="87104000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1677005879987</created>
@@ -213,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677446896836</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat top menu">
+      <created>1677878065777</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677878065777</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +217,8 @@
     <MESSAGE value="Initial" />
     <MESSAGE value="feat add routing" />
     <MESSAGE value="feat add sidebar menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat add sidebar menu" />
+    <MESSAGE value="feat top menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat top menu" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
