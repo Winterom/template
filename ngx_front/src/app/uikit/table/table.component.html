@@ -10,7 +10,7 @@
             </label>
           </div>
         </th>
-        <th (click)="changeSortDirection(i)" style="width: {{column.width}}">
+        <th (click)="changeSortDirection(i)" [style.width]="column.width" >
           <div class="th_header">
             <div class="th_title">{{column.title}}</div>
             <div *ngIf="column.sort==='asc'&& column.type==='string'">

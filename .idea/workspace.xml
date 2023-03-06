@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c86de592-9c8d-4a85-9591-cafbc9fd52da" name="Changes" comment="feat top menu">
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/user-list/UsersTableDefinition.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/TableDefinition.ts" afterDir="false" />
+    <list default="true" id="c86de592-9c8d-4a85-9591-cafbc9fd52da" name="Changes" comment="feat add ui table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/admin.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/user-list/user-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/user-list/user-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/user-list/user-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/admin/user-list/user-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/dashboard-layout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/dashboard-layout.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/dashboard-layout.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard/dashboard-layout/dashboard-layout.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ngx_front/src/app/uikit/table/table.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677005849619</updated>
       <workItem from="1677005850691" duration="10544000" />
-      <workItem from="1677235426961" duration="87104000" />
+      <workItem from="1677235426961" duration="87795000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1677005879987</created>
@@ -196,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677878065777</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat add ui table">
+      <created>1678075632081</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678075632081</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +216,8 @@
     <MESSAGE value="feat add routing" />
     <MESSAGE value="feat add sidebar menu" />
     <MESSAGE value="feat top menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat top menu" />
+    <MESSAGE value="feat add ui table" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat add ui table" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
