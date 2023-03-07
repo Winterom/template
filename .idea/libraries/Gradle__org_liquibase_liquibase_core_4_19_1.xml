@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.liquibase:liquibase-core:4.19.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Gradle/caches/modules-2/files-2.1/org.liquibase/liquibase-core/4.19.1/48b9ab4efa023ce690f429972d9c128734bed816/liquibase-core-4.19.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../Gradle/caches/modules-2/files-2.1/org.liquibase/liquibase-core/4.19.1/e7186f7f8f613c1f3ab31a7928936395ce700f5f/liquibase-core-4.19.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
