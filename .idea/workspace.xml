@@ -4,8 +4,103 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c86de592-9c8d-4a85-9591-cafbc9fd52da" name="Changes" comment="feat add ui table">
+    <list default="true" id="c86de592-9c8d-4a85-9591-cafbc9fd52da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_parameter_names_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_micrometer_micrometer_commons_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_micrometer_micrometer_observation_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_10_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_10_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jdbc_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_json_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_commons_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_jdbc_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_relational_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_web_6_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webmvc_6_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/src/main/java/alexey/grizly/com/commons/entities/ESortDirection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/src/main/java/alexey/grizly/com/commons/entities/ESortedFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/src/main/java/alexey/grizly/com/commons/entities/Paging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/src/main/java/alexey/grizly/com/commons/utils/url_query/EQueryParamsName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/src/main/java/alexey/grizly/com/commons/utils/url_query/UrlQueryParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/src/main/java/alexey/grizly/com/commons/utils/url_query/UrlQueryParamImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/src/main/java/alexey/grizly/com/commons/utils/url_query/UrlResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/src/main/java/alexey/grizly/com/commons/utils/url_query/UrlResolverImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/src/main/java/alexey/grizly/com/users/controllers/AppUsersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/src/main/java/alexey/grizly/com/users/dto/response/GetAllUsersPageResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/src/main/java/alexey/grizly/com/users/entities/AppUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/src/main/resources/db/changelog/master.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/src/main/resources/db/changelog/users/create/create-users-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_service/src/main/resources/db/changelog/users/users.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_opencsv_opencsv_5_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_opencsv_opencsv_5_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zaxxer_HikariCP_5_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zaxxer_HikariCP_5_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_collections4_4_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_text_1_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_text_1_10_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_19_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_19_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_19_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_19_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_qual_3_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_liquibase_liquibase_core_4_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_liquibase_liquibase_core_4_19_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_postgresql_postgresql_42_5_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_postgresql_postgresql_42_5_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_2_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_2_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_2_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_2_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_3_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_3_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_3_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_3_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_3_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_3_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_3_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_3_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_3_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_3_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_6_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_6_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_6_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_6_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_6_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_6_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_6_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_6_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_6_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_6_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jcl_6_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jcl_6_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_6_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_6_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_6_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_6_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_33.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_33.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/user_service.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/user_service.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/user_service.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/user_service.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/.gradle/8.0.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/user_service/.gradle/8.0.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/.gradle/8.0.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/user_service/.gradle/8.0.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/.gradle/8.0.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/user_service/.gradle/8.0.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/.gradle/8.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/user_service/.gradle/8.0.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/.gradle/8.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/user_service/.gradle/8.0.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/user_service/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/user_service/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/user_service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/build/resources/main/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/build/resources/main/db.changelog/master.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/build/resources/main/db.changelog/users/create/create-users-table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/build/resources/main/db.changelog/users/users.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/src/main/resources/db.changelog/master.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/src/main/resources/db.changelog/users/create/create-users-table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/src/main/resources/db.changelog/users/users.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +125,23 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="user_service" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="user_service" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="user_service" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="user_service" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -43,6 +155,7 @@
         <option value="TypeScript JSX File" />
         <option value="CSS File" />
         <option value="TypeScript File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -76,7 +189,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "/Volumes/Работа/Репозитории/template/ngx_front/src/assets/images/dashboard",
+    "last_opened_file_path": "/Volumes/Работа/Репозитории/template/user_service/src/main/java/alexey/grizly/com/commons/utils",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -97,12 +210,15 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="alexey.grizly.com.commons.utils" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user_service/src/main/java/alexey/grizly/com/commons/utils" />
       <recent name="$PROJECT_DIR$/ngx_front/src/assets/images/dashboard" />
       <recent name="$PROJECT_DIR$/ngx_front/src/assets/fonts" />
       <recent name="$PROJECT_DIR$/ngx_front/src/assets/images" />
       <recent name="$PROJECT_DIR$/frontend/src/ui" />
-      <recent name="C:\Users\winte\IdeaProjects\template\frontend\src\ui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ngx_front/src/app/modules/profile" />
@@ -110,6 +226,10 @@
       <recent name="$PROJECT_DIR$/ngx_front/src/app/shared/service/eventBus" />
       <recent name="$PROJECT_DIR$/ngx_front/src/app/uikit" />
       <recent name="$PROJECT_DIR$/ngx_front/src/app/modules/dashboard" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="alexey.grizly.com.commons.utils" />
+      <recent name="alexey.grizly.com.commons.entities" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -123,13 +243,55 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/user_service" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" value="--stacktrace" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
             <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="user_service [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/user_service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="user_service [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/user_service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -151,6 +313,27 @@
         <option name="taskNames">
           <list>
             <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="user_service [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/user_service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -185,8 +368,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.user_service [dependencies]" />
         <item itemvalue="Gradle.user_service [assemble]" />
+        <item itemvalue="Gradle.user_service [dependencies]" />
+        <item itemvalue="Gradle.user_service [buildDependents]" />
+        <item itemvalue="Gradle.user_service [build]" />
+        <item itemvalue="Gradle.user_service [run]" />
       </list>
     </recent_temporary>
   </component>

@@ -11,8 +11,9 @@ repositories {
 }
 
 dependencies {
-    implementation group: 'org.springframework.boot', name: 'spring-boot-starter', version: '3.0.4'
-    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-jdbc', version: '3.0.4'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '3.0.4'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-jdbc', version: '3.0.4'
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.26'
     implementation group: 'org.liquibase', name: 'liquibase-core', version: '4.19.1'
     implementation group: 'org.postgresql', name: 'postgresql', version: '42.5.4'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
