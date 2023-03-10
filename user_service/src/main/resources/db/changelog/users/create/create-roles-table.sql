@@ -1,6 +1,8 @@
-CREATE TABLE users (
+CREATE TABLE roles (
     id BIGSERIAL PRIMARY KEY ,
-    email VARCHAR(50) NOT NULL UNIQUE ,
+    title VARCHAR(100),
+    description VARCHAR(300),
     createdAt TIMESTAMPTZ not null,
     updatedAt TIMESTAMPTZ default current_timestamp
+
 )

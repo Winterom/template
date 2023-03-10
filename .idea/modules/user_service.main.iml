@@ -17,6 +17,9 @@
   <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../../user_service/build/classes/java/main" />
     <exclude-output />
+    <content url="file://$MODULE_DIR$/../../user_service/build/generated/sources/annotationProcessor/java/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../user_service/build/generated/sources/annotationProcessor/java/main" isTestSource="false" generated="true" />
+    </content>
     <content url="file://$MODULE_DIR$/../../user_service/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../user_service/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../user_service/src/main/java" isTestSource="false" />
@@ -28,6 +31,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.projectlombok:lombok:1.18.26" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:3.0.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-data-jdbc:3.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.mapstruct:mapstruct:1.5.3.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.liquibase:liquibase-core:4.19.1" level="project" />
     <orderEntry type="library" name="Gradle: org.postgresql:postgresql:42.5.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-json:3.0.4" level="project" />

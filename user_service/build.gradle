@@ -5,19 +5,33 @@ plugins {
 
 group 'alexey.grizly.com'
 version '1.0-SNAPSHOT'
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+   def mapstructVersion = "1.5.3.Final"
+   def lombokVersion = "1.18.26"
+   def lombokMapstructBindingVersion = "0.2.0"
 
 repositories {
     mavenCentral()
 }
 
+
+
 dependencies {
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '3.0.4'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-jdbc', version: '3.0.4'
-    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.26'
+    implementation group: 'org.mapstruct', name: 'mapstruct', version: mapstructVersion
+    annotationProcessor "org.mapstruct:mapstruct-processor:${mapstructVersion}", "org.projectlombok:lombok:${lombokVersion}", "org.projectlombok:lombok-mapstruct-binding:${lombokMapstructBindingVersion}"
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: lombokVersion
     implementation group: 'org.liquibase', name: 'liquibase-core', version: '4.19.1'
     implementation group: 'org.postgresql', name: 'postgresql', version: '42.5.4'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    testAnnotationProcessor "org.mapstruct:mapstruct-processor:${mapstructVersion}", "org.projectlombok:lombok:${lombokVersion}", "org.projectlombok:lombok-mapstruct-binding:${lombokMapstructBindingVersion}"
 }
 
 test {

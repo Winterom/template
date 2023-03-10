@@ -19,6 +19,7 @@
     <orderEntry type="module" module-name="user_service.main" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:3.0.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-data-jdbc:3.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.mapstruct:mapstruct:1.5.3.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.liquibase:liquibase-core:4.19.1" level="project" />
     <orderEntry type="library" name="Gradle: org.postgresql:postgresql:42.5.4" level="project" />
     <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.8.1" level="project" />

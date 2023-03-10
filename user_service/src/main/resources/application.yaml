@@ -10,5 +10,12 @@ spring:
     change-log: db/changelog/master.yaml
   datasource:
     url: "jdbc:postgresql://localhost:5432/template"
-    password: London8793
+    password: root
     username: postgres
+
+logging:
+  level:
+    org:
+      springframework:
+        jdbc:
+          core: TRACE
